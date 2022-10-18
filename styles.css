@@ -29,7 +29,7 @@ nav{
     padding: 20px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.062);
     z-index: 10;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.959);
 }
 
 .nav-items{
@@ -180,11 +180,19 @@ nav {
 
 .platform{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .platformdiv1, .platformdiv2{
     flex: 1;
+}
+
+.platformdiv1{
+    padding-top: 40px;
+}
+
+.p1{
+    text-align: start;
 }
 
 .platformdiv2{
@@ -193,7 +201,7 @@ nav {
 }
 
 .pd2one{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .leader-cards{
@@ -247,7 +255,7 @@ nav {
     flex-direction: column;
     justify-content: stretch;
     width: 330px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .improvecards1:hover{
@@ -264,8 +272,8 @@ nav {
 }
 
 .improve-img{
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 button{
